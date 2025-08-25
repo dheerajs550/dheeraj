@@ -1,9 +1,9 @@
 "use client";
+import React, { useState, useEffect } from 'react';
 import DelereBtn from '@/components/DelereBtn';
 import { apiData } from '@/servises/prodactApiCall';
 import Image from 'next/image';
 import Link from 'next/link';
-import React, { useState, useEffect } from 'react';
 
 const Prodect = () => {
   // searchParams ko direct destructure kar lo

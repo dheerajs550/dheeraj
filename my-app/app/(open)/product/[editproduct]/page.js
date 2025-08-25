@@ -1,12 +1,12 @@
 "use client"
 import React, { useEffect, useState } from 'react'
 import "../../globals.css";
-import {addProducts, apiData } from '@/servises/prodactApiCall';
+// import {addProducts, apiData } from '@/servises/prodactApiCall';
 import { BASE_URL } from '@/lib/apiurl';
 import Link from 'next/link';
 
 
-       function page({params}) {
+  function Page({params}) {
         const [name, setName] =useState("")
         const [price, setPrice] =useState("")
         const [company, setCompany] =useState("")
